@@ -1,0 +1,43 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# ---- Virtual Environment ----
+venv/
+env/
+.venv/
+
+# ---- FastAPI / Uvicorn ----
+*.db
+instance/
+*.sqlite3
+
+# ---- IDE Files ----
+# VS Code
+.vscode/
+.vscode/*
+
+# PyCharm
+.idea/
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Environment Variables ----
+.env
+*.env
+
+# ---- Cache / Temporary ----
+.cache/
+dist/
+build/
+pip-wheel-metadata/
+*.egg-info/
