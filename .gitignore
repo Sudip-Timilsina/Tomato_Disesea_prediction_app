@@ -5,8 +5,6 @@ __pycache__/
 *.pyd
 *.pkl
 *.log
-
-# Byte-compiled / optimized / DLL files
 *.so
 
 # ---- Virtual Environment ----
@@ -20,11 +18,7 @@ instance/
 *.sqlite3
 
 # ---- IDE Files ----
-# VS Code
 .vscode/
-.vscode/*
-
-# PyCharm
 .idea/
 
 # ---- OS Files ----
@@ -34,6 +28,7 @@ Thumbs.db
 # ---- Environment Variables ----
 .env
 *.env
+.env*.local
 
 # ---- Cache / Temporary ----
 .cache/
@@ -42,5 +37,33 @@ build/
 pip-wheel-metadata/
 *.egg-info/
 
-
+# ---- ML Models ----
 saved_model/
+
+# ---- Node / React Native ----
+node_modules/
+android/
+ios/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# ---- Metro / Debug ----
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ---- TypeScript ----
+*.tsbuildinfo
+
+# ---- Example / Template ----
+app-example
