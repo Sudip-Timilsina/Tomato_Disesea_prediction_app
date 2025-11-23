@@ -41,3 +41,6 @@ dist/
 build/
 pip-wheel-metadata/
 *.egg-info/
+
+
+saved_model/
